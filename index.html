@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Recorder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💪 Training Recorder</h1>
+  </header>
+
+  <main>
+    <section id="input-section">
+      <h2>📥 JSON入力</h2>
+      <textarea id="json-input" placeholder="メニューJSONを貼り付け..." autocomplete="off"></textarea>
+      <div class="button-row">
+        <button id="parse-btn" class="primary">展開</button>
+        <button id="restore-btn">前回復元</button>
+        <button id="clear-btn" class="danger">クリア</button>
+      </div>
+      <div id="error-message" class="error"></div>
+    </section>
+
+    <section id="session-info" hidden>
+      <h2 id="session-title"></h2>
+      <p id="session-meta" class="meta"></p>
+    </section>
+
+    <section id="exercises-section" hidden></section>
+
+    <section id="memo-section" hidden>
+      <h2>📝 全体メモ</h2>
+      <textarea id="session-memo" placeholder="全体の感想・次回への示唆..."></textarea>
+    </section>
+
+    <section id="output-section" hidden>
+      <h2>📤 Markdown出力</h2>
+      <button id="export-btn" class="primary">MD生成</button>
+      <textarea id="md-output" readonly placeholder="MD生成ボタンを押すと表示"></textarea>
+      <div class="button-row">
+        <button id="copy-btn">コピー</button>
+        <button id="download-btn">ダウンロード</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>v0.1 | localStorage auto-save</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

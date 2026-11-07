@@ -1,0 +1,95 @@
+{
+  "cycle": 9,
+  "week": "heavy",
+  "day": 1,
+  "day_name": "Upper",
+  "date": "2026-11-07",
+  "location": "エニタイム港南台（朝）",
+  "exercises": [
+    {
+      "id": "C",
+      "priority": "MUST",
+      "name": "バーベルベンチプレス（ナロー・脚上げ可）",
+      "target": "105-107.5kg × 4-6 × 4",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": ""
+    },
+    {
+      "id": "D",
+      "priority": "MUST",
+      "name": "加重懸垂（ナロー）/ 代替: PL アイソラテラル・フロントラットプル",
+      "target": "+17.5-20kg × 4-6 × 3",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": "加重: 体重91kg + ディップベルト重量を含めず記録"
+    },
+    {
+      "id": "E",
+      "priority": "MUST",
+      "name": "インクラインDBプレス / 代替: PL アイソラテラル・インクライン",
+      "target": "84-88kg × 4-6 × 3",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": "DB重量はペア総重量を記入（例: 42×2 → 84）"
+    },
+    {
+      "id": "F",
+      "priority": "CORE",
+      "name": "PL アイソラテラル・ローイング / 代替: チェストサポーテッドロウ",
+      "target": "4-6rep × 3",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": "スタート重量: マシン本体重量を調査次第記入"
+    },
+    {
+      "id": "G",
+      "priority": "CORE",
+      "name": "ケーブルラテラルレイズ / 代替: ラテラルレイズマシン",
+      "target": "8-10rep × 3",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": ""
+    },
+    {
+      "id": "H",
+      "priority": "CORE",
+      "name": "EZバーカール（ストリクト）",
+      "target": "45-47.5kg × 4-6 × 3",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": "EZバー重量: 6kg（含む/含めない 統一: 含める=実重量)"
+    },
+    {
+      "id": "I",
+      "priority": "EXTRA",
+      "name": "ケーブルオーバーヘッド三頭伸展",
+      "target": "8-10rep × 2",
+      "sets": [
+        {"weight": "", "reps": ""},
+        {"weight": "", "reps": ""}
+      ],
+      "memo": ""
+    }
+  ],
+  "session_memo": ""
+}
